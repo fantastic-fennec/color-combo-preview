@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Now in color!</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <link href='https://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/controls.js"></script>
+
+    <style>
+        body{
+            font-family:"Cousine";
+            background-color:#aaa;
+        }
+        img:hover {
+            cursor:pointer;
+        }
+
+
+        #display {
+            width: 500px;
+            border-radius: 3px;
+            float: left;
+        }
+
+        .controls {
+            display: inline-block;
+            width: 125px;
+            background-color: #FFF;
+            text-align: center;
+            border: 1px solid #999;
+            border-radius: 5px;
+            margin: 0px 10px;
+        }
+
+        .controls img {
+            width: 50px;
+            margin: 5px;
+        }
+    </style>
+
+</head>
+    
+<body>
+
+    <img src="image.php?colors=533595-3b0078" id="display" />
+
+
+    <div class="controls" id="controls1" data-order="0"><h4>Body</h4></div>
+    <div class="controls" id="controls2" data-order="1"><h4>Sleeves</h4></div>
+
+</body>
+</html>
